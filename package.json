@@ -1,0 +1,47 @@
+{
+  "name": "jstructo",
+  "version": "0.0.1",
+  "description": "A web-based tool for creating and managing JSON/YAML data structures with a visual interface.",
+  "private": false,
+  "repository": "git@github.com:phoenixweiss/JStructo.git",
+  "author": "phoenixweiss <phoenixweiss@ya.ru>",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d dist",
+    "preview": "vite preview",
+    "lint": "yarn run eslint .",
+    "format": "prettier --write src/"
+  },
+  "dependencies": {
+    "drawflow": "^0.0.60",
+    "i18next": "^23.15.1",
+    "i18next-browser-languagedetector": "^8.0.0",
+    "i18next-http-backend": "^2.6.1",
+    "i18next-vue": "^5.0.0",
+    "markdown-it": "^14.1.0",
+    "pinia": "^2.1.7",
+    "vue": "^3.4.21",
+    "vue-router": "^4.4.3"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.9.1",
+    "@originjs/vite-plugin-content": "^1.0.5",
+    "@picocss/pico": "^2.0.6",
+    "@rushstack/eslint-patch": "^1.7.2",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "@vue/eslint-config-prettier": "^9.0.0",
+    "eslint": "^9.9.1",
+    "eslint-plugin-vue": "^9.28.0",
+    "gh-pages": "^6.1.1",
+    "globals": "^15.9.0",
+    "js-yaml": "^4.1.0",
+    "prettier": "^3.2.5",
+    "sass": "1.77.6",
+    "vite": "^5.1.5",
+    "vite-svg-loader": "^5.1.0"
+  }
+}

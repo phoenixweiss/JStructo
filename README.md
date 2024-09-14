@@ -10,37 +10,77 @@
 - Use **Drawflow** for an intuitive and interactive data structure editor.
 - Reactive design using Vue3 and Pinia.
 
-## Getting Started
+---
+
+## Recommended IDE Setup
+
+[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar).
 
 ### Prerequisites
 
-- [Node.js](https://nodejs.org/)
-- [Yarn](https://yarnpkg.com/)
+- [Node.js](https://nodejs.org/) `~> 20.11.1`
+- [Yarn](https://yarnpkg.com/) `~> 1.22.22`
 
-### Installation
+### Clone the repo
 
-1. Clone the repository:
+```sh
+git clone git@github.com:phoenixweiss/JStructo.git
+cd JStructo
+```
 
-    ```sh
-    git clone https://github.com/yourusername/jstructo.git
-    cd jstructo
-    ```
+### Install the dependencies
 
-2. Install the dependencies:
+```sh
+yarn install
+```
 
-    ```sh
-    yarn install
-    ```
+### Keep project up-to-date
 
-3. Start the development server:
+```sh
+yarn upgrade-interactive
+```
 
-    ```sh
-    yarn dev
-    # or
-    npm run dev
-    ```
+### Compile and Hot-Reload for Development
 
-4. Open your browser and navigate to `http://localhost:3000`.
+```sh
+yarn dev
+```
+
+### Compile and Minify for Production
+
+```sh
+yarn build
+```
+
+### Preview the Production
+
+```sh
+yarn preview
+```
+
+### Lint with [ESLint](https://eslint.org/)
+
+```sh
+yarn lint
+```
+
+### Format with [Prettier](https://prettier.io/)
+
+```sh
+yarn format
+```
+
+### Deploy project to [GitHub Pages](https://pages.github.com/)
+
+```sh
+yarn deploy
+```
+
+### List project structure using `tree`
+
+```sh
+tree -I 'node_modules|dist'
+```
 
 ## Technologies Used
 
