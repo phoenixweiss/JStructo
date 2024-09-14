@@ -7,7 +7,6 @@
 - Create and edit JSON/YAML data using a visual interface.
 - Import/Export data to JSON or YAML formats.
 - Manage data hierarchy visually.
-- Use **Drawflow** for an intuitive and interactive data structure editor.
 - Reactive design using Vue3 and Pinia.
 
 ---
@@ -87,7 +86,6 @@ tree -I 'node_modules|dist'
 - **Vue 3** - The core framework for building the user interface.
 - **Pinia** - For state management.
 - **Vite** - For fast development and build process.
-- **Drawflow** - For creating and managing visual data structures.
 
 ## Future Plans
 

@@ -7,5 +7,4 @@
 - Create and edit JSON/YAML data using a visual interface.
 - Import/Export data to JSON or YAML formats.
 - Manage data hierarchy visually.
-- Use **Drawflow** for an intuitive and interactive data structure editor.
 - Reactive design using Vue3 and Pinia.
