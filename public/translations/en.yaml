@@ -1,7 +1,28 @@
 ui:
+  modals:
+    confirm_new_structure:
+      title: Confirmation needed
+      content: |-
+        Are you sure you want to create a new structure?
+        This will delete all existing nodes.
   footer:
     made_with: Made with
     made_by: and ❤️ by
+  language_selector: 'Selected language: {{language}}'
+  main_header: JStructo - Manage Your Data Structures JSON/YAML
+  create_new_structure: Create New Structure
+  load_file: Load JSON/YAML File
+  data_structure: Data Structure
+  node_name_placeholder: Node name
+  node_value_placeholder: Node value
+  create_new_node: Add Node
+  remove_node: Remove Node
+  'yes': 'Yes'
+  'no': 'No'
+  structure_name:
+    placeholder: Please enter structure name
+  save_as_json: Save as JSON
+  save_as_yaml: Save as YAML
 pages:
   home: Home
   about: About

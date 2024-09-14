@@ -1,7 +1,28 @@
 ui:
+  modals:
+    confirm_new_structure:
+      title: Нужно подтверждение
+      content: |-
+        Вы уверены, что хотите создать новую структуру?
+        Это приведет к удалению всех существующих узлов.
   footer:
     made_with: Сделано при помощи
     made_by: и с ❤️ от
+  language_selector: 'Выбран язык: {{language}}'
+  create_new_structure: Создать новую структуру
+  load_file: Загрузить файл JSON/YAML
+  main_header: JStructo — управляйте структурами данных JSON/YAML
+  data_structure: Структура данных
+  node_name_placeholder: Имя узла
+  node_value_placeholder: Значение узла
+  create_new_node: Добавить узел
+  remove_node: Удалить узел
+  'yes': Да
+  'no': Нет
+  structure_name:
+    placeholder: Пожалуйста, введите название структуры
+  save_as_json: Сохранить как JSON
+  save_as_yaml: Сохранить как YAML
 pages:
   home: Главная
   about: О проекте
