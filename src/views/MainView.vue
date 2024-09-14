@@ -27,7 +27,7 @@ const cancelNewStructure = () => {
 
 // Преобразование узлов в нужный формат
 const transformNodes = () => {
-  return nodesStore.nodes.map(node => ({ [node.name]: node.value }))
+  return nodesStore.nodes.map((node) => ({ [node.name]: node.value }))
 }
 
 // Сохранение структуры в формате JSON
@@ -97,16 +97,24 @@ const isStructureNameValid = computed(() => nodesStore.structureName.trim() !== 
             :placeholder="$t('ui.node_value_placeholder')"
           />
           <div class="node_actions">
-            <button @click="nodesStore.addNode(index)" class="success">{{ $t('ui.create_new_node') }}</button>
-            <button @click="nodesStore.removeNode(index)" class="warning">{{ $t('ui.remove_node') }}</button>
+            <button @click="nodesStore.addNode(index)" class="success">
+              {{ $t('ui.create_new_node') }}
+            </button>
+            <button @click="nodesStore.removeNode(index)" class="warning">
+              {{ $t('ui.remove_node') }}
+            </button>
           </div>
         </div>
       </div>
 
       <section class="save grid">
         <!-- Кнопки для сохранения структуры -->
-        <button @click="saveAsJSON" :disabled="!isStructureNameValid">{{ $t('ui.save_as_json') }}</button>
-        <button @click="saveAsYAML" :disabled="!isStructureNameValid">{{ $t('ui.save_as_yaml') }}</button>
+        <button @click="saveAsJSON" :disabled="!isStructureNameValid">
+          {{ $t('ui.save_as_json') }}
+        </button>
+        <button @click="saveAsYAML" :disabled="!isStructureNameValid">
+          {{ $t('ui.save_as_yaml') }}
+        </button>
       </section>
     </div>
   </main>
